@@ -1,7 +1,7 @@
 name: Build and Push Docker Image
 
 
-  push:
+push:
     分支: [ main ]
     paths:
       - 'Dockerfile'

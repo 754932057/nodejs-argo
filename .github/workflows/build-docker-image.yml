@@ -4,9 +4,9 @@ name: Build and Push Docker Image
 push:
     分支: [ main ]
     paths:
-      - 'Dockerfile'
-      - 'index.js'
-      - 'package.json'
+    - 'Dockerfile'
+    - 'index.js'
+    - 'package.json'
   pull_request:
     分支: [ main ]
   workflow_dispatch:
